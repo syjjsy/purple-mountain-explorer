@@ -1,0 +1,29 @@
+{
+  "bounds": [
+    118.808,
+    32.041,
+    118.876,
+    32.082
+  ],
+  "columns": 201,
+  "rows": 145,
+  "unit": "0.1 meters",
+  "min": -6.4,
+  "max": 436.8,
+  "source": "Mapzen Terrain Tiles (AWS Open Data), Terrarium",
+  "sourceUrl": "https://registry.opendata.aws/terrain-tiles/",
+  "tileUrls": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13599/6649.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13600/6649.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13601/6649.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13602/6649.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13599/6650.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13600/6650.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13601/6650.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13602/6650.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13599/6651.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13600/6651.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13601/6651.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/14/13602/6651.png"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "sun": {
+    "coordinates": [
+      118.848288,
+      32.064383
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/483693967",
+    "coordinateRole": "祭堂",
+    "elevation": 157,
+    "entranceCoordinates": [
+      118.848647,
+      32.058768
+    ],
+    "entranceName": "博爱坊（游览起点）",
+    "entranceSource": "https://www.openstreetmap.org/node/12345226894"
+  },
+  "ming": {
+    "coordinates": [
+      118.834675,
+      32.062083
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/380923041",
+    "coordinateRole": "宝顶",
+    "elevation": 107,
+    "entranceCoordinates": [
+      118.830967,
+      32.051447
+    ],
+    "entranceName": "明孝陵 1 号门",
+    "entranceSource": "https://www.openstreetmap.org/node/667334437"
+  },
+  "linggu": {
+    "coordinates": [
+      118.862873,
+      32.057677
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/1088448627",
+    "coordinateRole": "寺院院落",
+    "elevation": 69,
+    "entranceCoordinates": [
+      118.861147,
+      32.054558
+    ],
+    "entranceName": "灵谷景区红山门",
+    "entranceSource": "https://www.openstreetmap.org/node/5752825678"
+  },
+  "palace": {
+    "coordinates": [
+      118.841468,
+      32.047681
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/338667850",
+    "coordinateRole": "官邸建筑",
+    "elevation": 57,
+    "entranceCoordinates": [
+      118.840428,
+      32.048563
+    ],
+    "entranceName": "美龄宫检票入口",
+    "entranceSource": "https://www.openstreetmap.org/node/8012859710"
+  },
+  "observatory": {
+    "coordinates": [
+      118.826038,
+      32.066885
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/256405122",
+    "coordinateRole": "历史台址范围",
+    "elevation": 245,
+    "navigationCoordinates": [
+      118.82857,
+      32.066691
+    ],
+    "navigationName": "索道天文台站",
+    "navigationSource": "https://www.openstreetmap.org/node/2600805491"
+  },
+  "ridge": {
+    "coordinates": [
+      118.837195,
+      32.072636
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/node/2600783562",
+    "coordinateRole": "山峰",
+    "elevation": 405
+  },
+  "music": {
+    "coordinates": [
+      118.850252,
+      32.057315
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/141915419",
+    "coordinateRole": "露天音乐台",
+    "elevation": 67
+  },
+  "spirit": {
+    "coordinates": [
+      118.835721,
+      32.050403
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/249355083",
+    "coordinateRole": "石象路沿线",
+    "elevation": 44,
+    "entranceCoordinates": [
+      118.837664,
+      32.049463
+    ],
+    "entranceName": "明孝陵 5 号门",
+    "entranceSource": "https://www.openstreetmap.org/node/12042687721"
+  },
+  "plum": {
+    "coordinates": [
+      118.835268,
+      32.055992
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/791617219",
+    "coordinateRole": "山丘范围",
+    "elevation": 49,
+    "entranceCoordinates": [
+      118.837664,
+      32.049463
+    ],
+    "entranceName": "明孝陵 5 号门",
+    "entranceSource": "https://www.openstreetmap.org/node/12042687721"
+  },
+  "garden": {
+    "coordinates": [
+      118.828411,
+      32.056245
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/relation/18303734",
+    "coordinateRole": "植物园北园范围",
+    "elevation": 27,
+    "navigationCoordinates": [
+      118.827741,
+      32.052912
+    ],
+    "navigationName": "中山植物园公交站",
+    "navigationSource": "https://www.openstreetmap.org/node/1599036658"
+  },
+  "cable": {
+    "coordinates": [
+      118.818846,
+      32.060506
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/node/667282790",
+    "coordinateRole": "地堡城站",
+    "elevation": 67,
+    "entranceCoordinates": [
+      118.818846,
+      32.060506
+    ],
+    "entranceName": "索道地堡城站",
+    "entranceSource": "https://www.openstreetmap.org/node/667282790"
+  },
+  "pipa": {
+    "coordinates": [
+      118.817445,
+      32.055598
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/62700582",
+    "coordinateRole": "湖面",
+    "elevation": 24,
+    "navigationCoordinates": [
+      118.823532,
+      32.056372
+    ],
+    "navigationName": "琵琶湖公交站",
+    "navigationSource": "https://www.openstreetmap.org/node/3780775000"
+  },
+  "zixia": {
+    "coordinates": [
+      118.839016,
+      32.062229
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/166719565",
+    "coordinateRole": "湖面",
+    "elevation": 84
+  },
+  "avenue": {
+    "coordinates": [
+      118.834928,
+      32.046335
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/146635645",
+    "coordinateRole": "步行道中段",
+    "elevation": 46
+  },
+  "tower": {
+    "coordinates": [
+      118.862094,
+      32.060633
+    ],
+    "coordinatesSource": "https://www.openstreetmap.org/way/704448441",
+    "coordinateRole": "塔身",
+    "elevation": 91,
+    "entranceCoordinates": [
+      118.861147,
+      32.054558
+    ],
+    "entranceName": "灵谷景区红山门",
+    "entranceSource": "https://www.openstreetmap.org/node/5752825678"
+  }
+}
