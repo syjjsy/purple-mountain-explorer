@@ -344,3 +344,9 @@ h1, h2, h3, p, figure { margin: 0; }
 
 .drawer-body .detail-date { font-size: 12px; }
 .detail-date a { text-decoration: underline; }
+
+.flat-map .leaflet-bottom.leaflet-left { margin: 0 0 41px 12px; pointer-events: none; }
+.flat-map .leaflet-control-scale-line { background: #f8f6e9da; border-color: #536a54; color: #304b39; font-size: 10px; }
+@media (max-width: 700px) { .flat-map .leaflet-bottom.leaflet-left { margin: 0 0 31px 2px; } }
+
+.atlas-stage:has(.map-status) .leaflet-control-scale { visibility: hidden; }

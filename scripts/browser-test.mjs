@@ -101,6 +101,11 @@ try {
       await page.getByRole('button',{name:'二维地图'}).click()
       const map=page.locator('.flat-map')
       await map.waitFor()
+      const layering = await map.evaluate(element => {
+        const z = name => Number(getComputedStyle(element.querySelector('.leaflet-'+name+'-pane')).zIndex)
+        return z('relief') < z('greenery') && z('greenery') < z('roads')
+      })
+      assert.ok(layering,'the terrain image sits underneath roads and landcover')
       const selected=map.locator('.map-pin.is-selected')
       await selected.waitFor()
       assert.equal(await selected.getAttribute('title'),'中山陵')

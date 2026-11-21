@@ -23,7 +23,9 @@ export default function FlatMap(props:ViewerProps) {
       zoomDelta:.5, maxZoom:18, minZoom:11, maxBounds:box.pad(.52), maxBoundsViscosity:.85, preferCanvas:true,
     })
     map.fitBounds(box,{animate:false})
-    L.imageOverlay(asset('terrain/relief.webp'),box,{alt:'紫金山地形晕渲'}).addTo(map)
+    map.createPane('relief').style.zIndex='250'
+    L.imageOverlay(asset('terrain/relief.webp'),box,{pane:'relief',alt:'紫金山地形晕渲'}).addTo(map)
+    L.control.scale({imperial:false,maxWidth:85}).addTo(map)
     map.createPane('greenery').style.zIndex='320'
     map.createPane('roads').style.zIndex='360'
     map.createPane('routes').style.zIndex='430'
@@ -71,7 +73,7 @@ export default function FlatMap(props:ViewerProps) {
           const entry=spot.entranceCoordinates
           if (entry && entry.join(',')!==pos.join(',') && !entries.has(entry.join(','))) {
             entries.add(entry.join(','))
-            L.circleMarker(position(entry),{radius:4,weight:1.25,color:'#67471d',fillColor:'#fff9e1',fillOpacity:1})
+            L.circleMarker(position(entry),{radius:4.7,weight:1.35,color:'#67471d',fillColor:'#fff9e1',fillOpacity:1})
               .bindTooltip(spot.entranceName??'游客入口').on('click',() => current.current.onSelect(spot)).addTo(symbols)
           }
         }
